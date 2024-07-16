@@ -1,0 +1,35 @@
+1)interface Animal {
+    void sound();
+    void eat();
+}
+class Dog implements Animal {
+    public void sound() {
+        System.out.println("Dog is barking");
+    }
+    public void eat() {
+        System.out.println("Dog eating bones");
+    }}
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.sound();
+        myDog.eat();
+    }}
+
+2)interface Vehicle{
+    void start();
+    void stop();
+}
+class Dog implements Animal {
+    public void start() {
+        System.out.println("car is started");
+    }
+    public void eat() {
+        System.out.println("car is stopped");
+    }}
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.sound();
+        myDog.eat();
+    }}
